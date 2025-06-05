@@ -1,109 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Privacy Policy - Meri Shop </title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-    color: #333;
-  }
-  h1, h2 {
-    color: #2c3e50;
-  }
-  h1 {
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 5px;
-  }
-  p {
-    margin: 10px 0;
-  }
-  ul {
-    margin: 10px 0 10px 20px;
-  }
-  footer {
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #666;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Privacy Policy - Meri Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h1 {
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 5px;
+    }
+    p {
+      margin: 10px 0;
+    }
+    ul {
+      margin: 10px 0 10px 20px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
 
 <h1>Privacy Policy</h1>
 <p><strong>Effective Date:</strong> June 5, 2025</p>
 
-<p>Welcome to <strong>Meri Shop app privacy-policy</strong> (“we,” “us,” or “our”). This Privacy Policy explains how we collect, use, store, and protect your information when you use our mobile application.</p>
+<p>Welcome to <strong>Meri Shop</strong> (“we,” “us,” or “our”). This Privacy Policy explains how we collect, use, store, and protect your information when you use our mobile application.</p>
 
 <h2>1. Information We Collect</h2>
 <p>When you use our app, we collect the following information:</p>
 <ul>
-  <li><strong>Personal Information:</strong> Your  email  (via Gmail account chooser).</li>
-  <li><strong>Shop Information:</strong> Shop name, owner name, city, state, address, and shop status (Open, Closed, or any custom status text you choose).</li>
+  <li><strong>Personal Information:</strong> Your email address (via Gmail account chooser).</li>
+  <li><strong>Shop Information:</strong> Shop name, owner name, city, state, address, phone number or email, and shop status or note (Open, Closed, or any custom status or note text you choose).</li>
   <li><strong>App Usage Data:</strong> Favorites stored locally on your device (using AsyncStorage), login tokens, and user reports.</li>
 </ul>
 
-<h2>2. Data Storage and Backend</h2>
-<p>All shop-related data including shop name, owner name, city, state, address, and status is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
+<h2>2. Device Permissions</h2>
+<p>This app may request permission to access your device's camera and media library for the purpose of uploading profile images using the Image Picker feature.</p>
+
+<h2>3. Profile View Count</h2>
+<p>The app tracks how many times a user's profile is viewed. This view count is stored securely in our database and is only visible to the respective user. We do not share this data with any third parties.</p>
+
+<h2>4. Data Storage and Backend</h2>
+<p>All shop-related data including shop name, owner name, city, state, address,view count and status or note is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
 <p>This information is <strong>publicly visible to all users of the app</strong> when browsing or searching shops.</p>
 <p>The <strong>status field is flexible</strong>, allowing shop owners to enter any text describing their shop’s current state.</p>
+<p>Uploaded images are securely stored on our cloud storage (such as AWS S3 and MongoDB) and are not shared with any third parties.</p>
 
-<h2>3. Google Account Sign-In and Permissions</h2>
+<h2>5. Account Sign-In and Permissions</h2>
 <p>When you sign up using your Gmail account, the app opens the Google Account Chooser modal <strong>directly without requesting any additional device permissions</strong> such as location or contacts.</p>
 <p>This ensures a quick, secure, and privacy-friendly sign-up process.</p>
-<p>We only access your <strong>email address </strong> for authentication purposes.</p>
+<p>We only access your <strong>email address</strong> for authentication purposes.</p>
 
-<h2>4. Favorites and Local Storage</h2>
+<h2>6. Favorites and Local Storage</h2>
 <p>You can save your favorite shops locally on your device using <strong>AsyncStorage</strong>.</p>
-<p>Favorites data is stored only on your device and is <strong>deleted automatically when you log out</strong>.</p>
+<p>Favorites data is stored only on your device. It is <strong>automatically deleted when you log out</strong>, and you can also <strong>manually remove it anytime from within the app</strong>.</p>
 <p>Your authentication token is also removed securely on logout to protect your privacy.</p>
+<h2>7. Data Editing and Deletion</h2
+<p>After creating a shop, you can <strong>edit certain information</strong> such as:</p>
+<ul>
+  <li>Shop Name</li>
+  <li>Owner Name</li>
+  <li>City</li>
+  <li>Address</li>
+  <li>Contact (Email or Phone)</li>
+  <li>Status or Note (You can update or leave it empty)</li>
+  <li>Profile Image (You can replace the existing image)</li>
+</ul>
+<p><strong>Deletion of your Gmail account data or shop from our servers is not directly available within the app.</strong> If you wish to permanently delete your data, please send a formal request from your registered Gmail address to <strong>merishopapp.in@gmail.com</strong> for secure verification and processing.</p>
+<p>We comply with all applicable laws regarding data privacy, editing, and deletion.</p>
 
-<h2>5. Data Editing and Deletion</h2>
-<p>You can <strong>edit your personal and shop information</strong> anytime within the app.</p>
-<p>To <strong>delete your Gmail account data from our servers</strong>, a formal request must be sent via your registered Gmail address to ensure secure verification.</p>
-<p>We comply with all applicable laws regarding data privacy and deletion.</p>
 
-<h2>6. User Reporting and Policy Enforcement</h2>
+<h2>8. User Reporting and Policy Enforcement</h2>
 <p>Users can <strong>report any shop or user for inappropriate content or policy violations</strong> directly via the app.</p>
 <p>All reports are sent securely to our team via email.</p>
 <p>Our dedicated moderation team reviews all reports and takes necessary action including warnings, suspension, or removal of violating content.</p>
 <p>This ensures a safe and trustworthy environment for all users.</p>
 
-<h2>7. Logout and Data Removal</h2>
+<h2>9. Logout and Data Removal</h2>
 <p>Logging out removes all local favorite shops and your login authentication token from your device.</p>
 <p>This prevents unauthorized access and keeps your data safe.</p>
 
-<h2>8. Cookies and Tracking Technologies</h2>
-<p>Our app may use cookies and similar technologies to enhance your user experience.</p>
-<p>Cookies help remember your preferences and app settings.</p>
-<p>You can disable cookies on your device, but some app features may not work properly.</p>
+<h2>10. Cookies and Tracking Technologies</h2>
+<p>Our app does not use cookies. However, it may use local storage (such as AsyncStorage) to store user preferences or login information securely on your device.</p>
 
-<h2>9. Compliance with Laws and Children’s Privacy</h2>
+<h2>11. Compliance with Laws and Children’s Privacy</h2>
 <p>We follow all relevant laws and regulations including Indian data protection laws.</p>
 <p>Our app is not intended for children under 18 years old.</p>
 <p>We do not knowingly collect data from children under 18.</p>
 
-<h2>10. Sharing Your Information</h2>
+<h2>12. Sharing Your Information</h2>
 <p>We do not sell or rent your personal information.</p>
 <p>Information is shared only with trusted service providers who help us operate the app and maintain servers, under strict confidentiality.</p>
+<p><strong>In accordance with applicable laws, we may share user information with government authorities or law enforcement agencies if legally required to do so, such as through a valid court order or official investigation.</strong></p>
 
-<h2>11. Security</h2>
+<h2>13. Security</h2>
 <p>We use appropriate technical and organizational measures to protect your data from unauthorized access, loss, or misuse.</p>
 
-<h2>12. Changes to This Policy</h2>
+<h2>14. Changes to This Policy</h2>
 <p>This Privacy Policy may be updated occasionally.</p>
 <p>Updates will be posted within the app and take effect immediately.</p>
 <p>Please review periodically.</p>
 
-<h2>13. Contact Us</h2>
+<p><strong>By signing up or using the Meri Shop app, you automatically agree to and accept the terms outlined in this Privacy Policy.</strong></p>
+
+
+<h2>15. Contact Us</h2>
 <p>If you have questions or concerns, contact us at:</p>
 <p><strong>Email:</strong> merishopapp.in@gmail.com</p>
 
 <footer>
-  <p>udaypur Bijnor west up India</p>
+  <p> Address: Udaypur, Bijnor, Uttar Pradesh, India</p>
 </footer>
 
 </body>
