@@ -46,18 +46,22 @@
   <li>
       When <strong>you entered your password</strong> for account create purposes. This password is <strong>encrypted securely</strong> before storing in our backend.
     </li>
-  <li><strong>Shop Information:</strong> Shop name, owner name, city, state, address, phone number or email, and shop status or note (Open, Closed, or any custom status or note text you choose).</li>
+  <li><strong>Shop Information:</strong> Shop name,shop image(profile), owner name, city, state, address, phone number or email, and shop status or note (Open, Closed, or any custom status or note text you choose).</li>
   <li><strong>App Usage Data:</strong> Favorites stored locally on your device (using AsyncStorage), login tokens, and user reports.</li>
 </ul>
 
 <h2>2. Device Permissions</h2>
-<p>This app may request permission to access your device's camera and media library for the purpose of uploading profile images using the Image Picker feature.</p>
+<p> Our app only requires Internet access permission to communicate with our servers and upload data securely.
+        We do not request any permissions to access your device’s photos, media, or camera directly.
+        When you choose to upload images, the app uses your device’s native photo picker, which allows you to select photos without granting the app direct access to your media or storage. This ensures your privacy and control over your files.
+        We only access the photos or files that you explicitly select and do not access or store any other data from your device.
+</p>
 
 <h2>3. Profile View Count</h2>
 <p>The app tracks how many times a user's profile is viewed. This view count is stored securely in our database and is only visible to the respective user. We do not share this data with any third parties.</p>
 
 <h2>4. Data Storage and Backend</h2>
-<p>All shop-related data including shop name, owner name, city, state, address,view count and status or note is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
+<p>All shop-related data including shop name,shop image(profile), owner name, city, state, address,view count and status or note is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
 <p>This information is <strong>publicly visible to all users of the app</strong> when browsing or searching shops.</p>
 <p>The <strong>status field is flexible</strong>, allowing shop owners to enter any text describing their shop’s current state.</p>
 <p>Uploaded images are securely stored on our cloud storage (such as AWS S3 and MongoDB) and are not shared with any third parties.</p>
@@ -74,7 +78,7 @@
   </p>
 
   <ul>
-    <li>Shop name, owner name</li>
+    <li>Shop name,shop image(profile), owner name</li>
     <li>Email address or phone number</li>
     <li>City, state, and address</li>
     <li>Custom shop status or note</li>
