@@ -46,7 +46,7 @@
   <li>
       When <strong>you entered your password</strong> for account create purposes. This password is <strong>encrypted securely</strong> before storing in our backend.
     </li>
-  <li><strong>Shop Information:</strong> Shop name,shop image(profile), owner name, city, state, address, phone number or email, and shop status or note (Open, Closed, or any custom status or note text you choose).</li>
+  <li><strong>Shop Information:</strong> Shop name,shop image(profile), owner name, city, state, address,contact( phone number or email ), and shop status  (Open, Closed, or any custom status  text you choose).</li>
   <li><strong>App Usage Data:</strong> Favorites stored locally on your device (using AsyncStorage), login tokens, and user reports.</li>
 </ul>
 
@@ -61,7 +61,7 @@
 <p>The app tracks how many times a user's profile is viewed. This view count is stored securely in our database and is only visible to the respective user. We do not share this data with any third parties.</p>
 
 <h2>4. Data Storage and Backend</h2>
-<p>All shop-related data including shop name,shop image(profile), owner name, city, state, address,view count and status or note is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
+<p>All shop-related data including shop name,shop image(profile), owner name, city, state, address,contact(phone number or email), view count and status or note is <strong>stored securely on our backend servers hosted on AWS</strong> and saved in a MongoDB database.</p>
 <p>This information is <strong>publicly visible to all users of the app</strong> when browsing or searching shops.</p>
 <p>The <strong>status field is flexible</strong>, allowing shop owners to enter any text describing their shop’s current state.</p>
 <p>Uploaded images are securely stored on our cloud storage (such as AWS S3 and MongoDB) and are not shared with any third parties.</p>
@@ -79,9 +79,9 @@
 
   <ul>
     <li>Shop name,shop image(profile), owner name</li>
-    <li>Email address or phone number</li>
+    <li>contact(Email address or phone number)</li>
     <li>City, state, and address</li>
-    <li>Custom shop status or note</li>
+    <li>Custom shop status </li>
     <li>Profile images</li>
   </ul>
 
@@ -112,8 +112,8 @@
   <li>Owner Name</li>
   <li>City</li>
   <li>Address</li>
-  <li>Contact (Email or Phone)</li>
-  <li>Status or Note (You can update or leave it empty)</li>
+  <li>Contact (Email or Phone number)</li>
+  <li>shop Status (You can update or leave it empty)</li>
   <li>Profile Image (You can replace the existing image)</li>
 </ul>
 <p><strong>Deletion of your Gmail account data or shop can be performed directly from the Settings section within the app.</strong> If you wish to permanently remove your data from our servers, please go to the Home screen, tap the top-right corner menu,click advance Setting and select the "Delete Account" option. Follow the confirmation steps to complete the process.</p>
@@ -148,6 +148,7 @@
   
 <h2>14. Security, Safety, and Integrity</h2>
 <p>We use appropriate technical and organizational measures to protect your data from unauthorized access, loss, or misuse.</p>
+  <P> We use HTTPS to securely transmit user data between the app and our services.</p>
 <p>Security, safety, and integrity are integral parts of our services. We may use your information to verify accounts and activities, combat harmful conduct, protect users against spam or abuse, and ensure our services are being used legally and respectfully. This includes investigating suspicious activities or violations of our Terms and policies.</p>
 <p>Please refer to the “Sharing Your Information” section above for legal disclosures.</p>
 
